@@ -12,9 +12,9 @@ int main()
     printf("A = %d\n",a);
     printf("B = %d\n",b);
 
-    a=temp;
-    b=a;
     temp=b;
+    b=a;
+    a=temp;
 
     printf("Value After Swap\n");
     printf("A = %d\n",a);
