@@ -36,7 +36,7 @@ int main()
                 printf("D is Maximum");
             }
         }      
-    }
+    } 
     else
     {
         if(b>c)
