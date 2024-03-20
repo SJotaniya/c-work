@@ -1,3 +1,5 @@
+//Get Maximum Number Using Ternary Operator
+
 #include<stdio.h>
 
 int main()
@@ -10,5 +12,10 @@ int main()
     printf("Enter the value of C : ");
     scanf("%d",&c);
 
-    (a>b) ? (a>c) ? printf("A is Max") : printf("C is Max") : (b>c) ? printf("B is Max") : printf("C is Max");
+    //Condition
+    (a>b) ?
+                //True Part
+        (a>c) ? printf("A is Max") : printf("C is Max") :
+                    //False Part
+            (b>c) ? printf("B is Max") : printf("C is Max");
 }
