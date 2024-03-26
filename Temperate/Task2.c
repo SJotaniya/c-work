@@ -7,7 +7,8 @@ int main()
     printf("Enter any number: ");
     scanf("%d", &num);
 
-    while (num != 0) {
+    while(num != 0)
+    {
         num /= 10;
         count++;      
     }
