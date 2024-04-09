@@ -15,7 +15,6 @@ int main()
             printf("a[%d][%d] :",i,j);
             scanf("%d",&arr[i][j]);
         }
-        
         printf("\n");
     }
 
@@ -41,6 +40,6 @@ int main()
         for (int j = 0; j < col; j++)
         {
             printf("%2d",arr1[i][j]);
-        }    
+        }
     }
 }
