@@ -1,11 +1,13 @@
 #include<stdio.h>
+
 int main()
 {
-    int row,col,swap,r,c;
-    printf("enter value of row : ",row);
+    int row,col,max=0;
+    printf("Enter Number of Row : ");
     scanf("%d",&row);
-    printf("enter value of col : ",col);
+    printf("Enter Number of Column : ");
     scanf("%d",&col);
+
     int arr[row][col];
 
     for (int i = 0; i < row; i++)
@@ -14,6 +16,11 @@ int main()
         {
             printf("a[%d][%d] :",i,j);
             scanf("%d",&arr[i][j]);
+
+            if (max <= arr[i][j])
+            {
+                max = arr[i][j];
+            }
         }
         printf("\n");
     }
@@ -22,24 +29,10 @@ int main()
     {
         for (int j = 0; j < col; j++)
         {
-            printf("%2d",arr[i][j]);
+            printf("%3d ",arr[i][j]);
         }
         printf("\n");
     }
 
-    swap = row;
-    row = col;
-    col = swap;
-
-    int arr1[row][col];
-
-    printf("Row = %d Col = %d \n",row,col);
-
-    for (int i = 0; i < row; i++)
-    {
-        for (int j = 0; j < col; j++)
-        {
-            printf("%2d",arr1[i][j]);
-        }
-    }
+    printf("Maximum Value in this Array : %d",max);
 }

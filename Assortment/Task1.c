@@ -10,7 +10,7 @@ int main()
         scanf("%d",&arr[i]);
     }
 
-    printf("\nNegative Elements in Array\n");
+    printf("\n<-- Negative Elements in Array -->\n");
 
     for (int i = 0; i < 5; i++)
     {
