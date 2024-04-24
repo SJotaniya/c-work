@@ -27,6 +27,6 @@ int main()
     printf("Enter Value of C -> ");
     scanf("%d",&c);
     printf("\n");
-
+    
     swap(&a,&b,&c);
 }
