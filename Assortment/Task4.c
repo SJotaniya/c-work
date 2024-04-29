@@ -48,7 +48,7 @@ int main()
     }
     printf("Sum of Row %d = %d\n",r,sumr);
 
-    printf("\nEnter Number of Column for sum :- ");
+    printf("\nEnter Number of Column for Sum :- ");
     scanf("%d",&c);
     int cc = c-1;
 
