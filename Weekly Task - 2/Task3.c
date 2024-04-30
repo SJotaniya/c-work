@@ -1,3 +1,7 @@
+//Reverse the Number
+//Entered Number : 12345
+//Reversed Number : 54321
+
 #include<stdio.h>
 
 int main()
